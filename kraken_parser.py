@@ -34,6 +34,8 @@ class KrakenData:
             return 'Species'
         elif tax_coding == '-':
             return 'Other'
+        else:
+            return 'Other'
 
 
 def taxid_to_lineage_string(taxid):
