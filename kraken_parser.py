@@ -125,7 +125,8 @@ if __name__ == '__main__':
         check_tax_level = True
         for line in lines:
             x = KrakenData(line)
-            if x.name == args.taxonomy:  # Check if we've hit desired taxonomy. If yes, set our write output flag
+            #if x.name == args.taxonomy:  # Check if we've hit desired taxonomy. If yes, set our write output flag
+            if True:
                 # and go to next loop iteration.
                 write_output = True
                 tax_level = taxonomy_order.index(x.tax_level)
